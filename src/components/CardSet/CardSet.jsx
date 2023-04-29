@@ -1,10 +1,11 @@
 import Card from '../../components/Card/Card';
+import { CardList } from './CardSet.styled';
 
 const CardSet = ({ cards }) => {
   console.log(cards);
   return (
     <>
-      <ul>
+      <CardList>
         {cards.map(({ id, user, avatar, tweets, followers }) => {
           return (
             <Card
@@ -19,7 +20,7 @@ const CardSet = ({ cards }) => {
             </Card>
           );
         })}
-      </ul>
+      </CardList>
     </>
   );
 };
