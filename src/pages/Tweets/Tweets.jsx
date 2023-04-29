@@ -17,7 +17,7 @@ const Tweets = () => {
   
   return (
     <>
-      <div>Tweets page</div>
+      <div></div>
       <CardSet cards={cards} />
     </>
   );
