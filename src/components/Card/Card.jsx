@@ -1,9 +1,13 @@
-const Card = () => {
+const Card = ({id, user, tweets, avatar, followers}) => {
     return (
         <>
-            <div>
-                Card
-            </div>
+            <li key={id}>
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src={avatar} alt={user} />
+                <p>{tweets} TWEETS</p>
+                <p>{followers} FOLLOWERS</p>
+            </li>
         </>
     )
 }
