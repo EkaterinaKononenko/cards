@@ -44,7 +44,7 @@ const Card = ({ id, user, tweets, avatar, followers }) => {
         <ImgEllipse src="images/ellipse.png" alt="ellipse" />
         <ImgAvatar src={avatar} alt={user} />
         <TweetsText>{tweets} TWEETS</TweetsText>
-        <Followers> {formattedCount} followers</Followers>
+        <Followers> {formattedCount} FOLLOWERS</Followers>
         <Btn
           onClick={handleFollowClick}
           style={{

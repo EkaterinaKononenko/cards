@@ -1,7 +1,14 @@
+import { Container } from "components/Container/Container";
+import { HomeWrapper } from "./Home.styled";
+
 const Home = () => {
     return (
         <>
-            <div></div>
+            <Container>
+                <HomeWrapper>
+
+                </HomeWrapper>
+            </Container>
         </>
     )
 }

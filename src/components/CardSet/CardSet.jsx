@@ -2,7 +2,6 @@ import Card from '../../components/Card/Card';
 import { CardList } from './CardSet.styled';
 
 const CardSet = ({ cards }) => {
-  console.log(cards);
   return (
     <>
       <CardList>
