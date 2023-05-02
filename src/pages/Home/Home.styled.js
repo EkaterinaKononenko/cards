@@ -10,3 +10,10 @@ export const HomeWrapper = styled.div`
     width: 1440px;
   }
 `;
+
+export const HomeImg = styled.img`
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+`;

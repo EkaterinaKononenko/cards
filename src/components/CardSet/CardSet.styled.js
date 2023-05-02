@@ -5,6 +5,7 @@ export const CardList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  margin-bottom: 50px;
   @media screen and (min-width: 768px) {
     gap: 28px;
   }
